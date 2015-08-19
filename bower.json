@@ -1,6 +1,6 @@
 {
   "name": "ag-logger",
-  "description": "AngularJS logger with configurable log levels.",
+  "description": "An AngularJS logger with configurable log levels.",
   "main": [
     "release/ag-logger.js"
   ],
