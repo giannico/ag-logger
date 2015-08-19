@@ -11,4 +11,4 @@ gulp.config.js
 bower.json
 
 # IDE files
-*.sublime.*
+*sublime*
