@@ -11,7 +11,7 @@
         WARN:  { name: 'warn',  value: 4, logLabel: 'WARN  '},
         INFO:  { name: 'info',  value: 3, logLabel: 'INFO ' },
         LOG:   { name: 'log',   value: 2, logLabel: 'LOG ' },
-        DEBUG: { name: 'debug', value: 1, logLabel: 'DEBUG' },
+        DEBUG: { name: 'debug', value: 1, logLabel: 'DEBUG ' },
         ALL:   { name: 'all',   value: 0 }
     };
 
