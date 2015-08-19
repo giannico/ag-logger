@@ -7,7 +7,7 @@
 
     var _LOG_LEVELS = {
         OFF:   { name: 'off',   value: 6 },
-        ERROR: { name: 'error', value: 5, logLabel: 'ERR  ' },
+        ERROR: { name: 'error', value: 5, logLabel: 'ERR ' },
         WARN:  { name: 'warn',  value: 4, logLabel: 'WARN  '},
         INFO:  { name: 'info',  value: 3, logLabel: 'INFO ' },
         LOG:   { name: 'log',   value: 2, logLabel: 'LOG ' },
