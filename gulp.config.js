@@ -48,7 +48,7 @@ module.exports = function() {
             port: 8080,
             livereload: true,
             directoryListing: true,
-            path: '/'
+            path: ''
         },
 
         get demoUrl () {
