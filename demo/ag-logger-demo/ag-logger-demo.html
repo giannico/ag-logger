@@ -1,0 +1,53 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1>agLogger</h1>
+        <p>Client side logging utility with configurable logging levels. Open your developer console to see the log messages.</p>
+    </div>
+</div>
+
+<form
+  name="vm.logForm"
+  novalidate>
+
+  <div class="form-group">
+    <label for="loggerLevelInput">Logger Level</label>
+    <select id="logLevelSelect"
+      class="form-control"
+      required
+      ng-model="vm.logFormData.loggerLevel"
+      ng-options="loggerLevel for loggerLevel in vm.loggerLevels">
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="logFunctionSelect">Log Function</label>
+    <select id="logFunctionSelect"
+      class="form-control"
+      required
+      ng-model="vm.logFormData.logFunctionName"
+      ng-options="logFunctionName for logFunctionName in vm.logFunctionNames">
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="messageInput">Message</label>
+    <input id="messageInput"
+      type="text"
+      required
+      class="form-control"
+      ng-model="vm.logFormData.message">
+  </div>
+
+  <div class="alert alert-success"
+    role="alert"
+    ng-show="vm.willLog(vm.logFormData.logFunctionName)">This will log to the console.</div>
+
+  <div class="alert alert-danger"
+    role="alert"
+    ng-show="!vm.willLog(vm.logFormData.logFunctionName)">This will not log to the console.</div>
+
+  <button type="submit"
+    class="btn btn-primary"
+    ng-disabled="vm.logForm.$invalid"
+    ng-click="vm.logMessage(vm.logFormData.logFunctionName, vm.logFormData.message)">Log Message</button>
+
+</form>
