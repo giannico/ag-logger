@@ -2,10 +2,10 @@
 
 An AngularJS logger with configurable log levels. All logging messages are delegated to Angular's [$log](https://docs.angularjs.org/api/ng/service/$log) service.
 
-* [Demo](https://github.io/giannico/ag-logger)
+* [Demo](https://giannico.github.io/ag-logger)
 * [Getting Started](#getting-started)
 * [API Documentation](#api-documentation)
-* [Changes](https://github.com/giannico/ag-logger/tree/master/CHANGELOG.md)
+* [Releases](https://github.com/giannico/ag-logger/releases)
 * [License](https://github.com/giannico/ag-logger/tree/master/LICENSE)
 
 ## Getting Started
