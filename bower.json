@@ -1,0 +1,46 @@
+{
+  "name": "ag-logger",
+  "description": "AngularJS logger with configurable log levels.",
+  "main": [
+    "release/ag-logger.js"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3"
+  },
+  "devDependencies": {
+    "angular-ui-router": "~0.2.14",
+    "bootstrap": "~3.3.4"
+  },
+  "keywords": [
+    "angular",
+    "log4j",
+    "logger",
+    "logging",
+    "debug",
+    "log",
+    "info",
+    "warn",
+    "error",
+    "$log"
+  ],
+  "authors": [{
+    "name": "Andre Giannico",
+    "email": "giannico@gmail.com"
+  }],
+  "homepage": "https://github.com/giannico/ag-logger",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/giannico/ag-logger/ag-logger.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "demo",
+    "gulp.config.js",
+    "gulpfile.js",
+    "*sublime*"
+  ]
+}
