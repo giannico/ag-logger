@@ -81,7 +81,7 @@
 
             ////////////////////
 
-            function getLogLevel() { return _initializedLogLevel.name; }
+            function getLogLevel() { return _currentLogLevel.name; }
 
             function enableAll() { service.setLogLevel(_LOG_LEVELS.ALL.name); }
 
